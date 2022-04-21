@@ -1,0 +1,20 @@
+title: Gaussian 2D
+parameters:
+  sigma_x:
+    type: number
+    description: X-axis standard deviation
+    default: 1
+    minimum: 0
+  sigma_y:
+    type: number
+    description: Y-axis standard deviation
+    default: 1
+    minimum: 0
+  x_0:
+    type: number
+    description: X-axis offset
+    default: 0
+  y_0:
+    type: number
+    description: Y-axis offset
+    default: 0

@@ -1,4 +1,6 @@
 title: Gaussian 2D
+tags:
+  - demo
 parameters:
   sigma_x:
     type: number

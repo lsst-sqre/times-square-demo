@@ -1,3 +1,8 @@
+authors:
+  - name: Jonathan Sick
+    slack: jonathansick
+tags:
+  - demo
 parameters:
   A:
     type: number
@@ -13,6 +18,3 @@ parameters:
     type: number
     description: Y-axis offset
     default: 0
-authors:
-  - name: Jonathan Sick
-    slack: jonathansick

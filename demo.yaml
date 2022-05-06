@@ -17,4 +17,4 @@ parameters:
   y0:
     type: number
     description: Y-axis offset
-    default: 2
+    default: 4

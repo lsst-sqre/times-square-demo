@@ -10,7 +10,7 @@ parameters:
   sigma_y:
     type: number
     description: Y-axis standard deviation
-    default: 1
+    default: 2
     minimum: 0
   x_0:
     type: number

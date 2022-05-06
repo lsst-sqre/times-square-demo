@@ -7,7 +7,7 @@ parameters:
   A:
     type: number
     description: Amplitude
-    default: 4
+    default: 2
     minimum: 0
   lambda:
     type: number

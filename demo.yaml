@@ -1,3 +1,5 @@
+title: Sine wave
+description: Plot of a sine wave with matplotlib.
 authors:
   - name: Jonathan Sick
     slack: jonathansick

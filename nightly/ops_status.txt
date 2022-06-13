@@ -1,0 +1,20 @@
+
+* &#11096; Any large hexapod motions must happen near the zenith to avoid surpassing the maximum load permitted by the hexapod.
+* &#11096; Fan should not run above 50% capacity when being used on-sky.
+* &#11096; **Doing snaps this run** – see details in https://sitcomtn-032.lsst.io/ 
+* &#11096; Scripts now use the "time_on_target" parameter to optimize the azimuth and rotator position
+    * &#9654; time estimate is primarily based on exposure time and estimated overheads
+        * &#10141; If you hit a limit please let Patrick know!
+* &#11096; Mount motion issues (unchanged)
+    * &#9654; Settling
+        * &#10141; Now have the a parameters to adjust the mount settling (this is not going to help the blips seen at the pole)
+            * &bull; Tiago has removed the ATCS bug, now relying fully on the ATMCS
+        * &#10141; Please flag where exposures are bad after a slew/offset
+    * &#9654; Tracking 
+        * &#10141; A very slow speeds (the pole) - this issue remains
+        * &#10141; At high speeds (cogging) - you probably won't actually see this visually, but it will slightly degrade the PSF
+    * &#9654; Nasymth over-torque:
+        * &#10141; Need more data to track down where/when this occurs, just log when it faults and continue
+    * &#9654; Others (including wind)
+        * &#10141; Take accelerometer data!
+        * &#10141; Pause scriptQueue, take data with accelerometers, then resume the scriptQueue 

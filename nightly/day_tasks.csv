@@ -1,0 +1,5 @@
+,Tasks,Notes
+0,Practice of scheduler operations on the TTS,
+1,Train operators to run/read Craig's accelerometer notebook(s?),
+2,"Test ""time on target"" parameter of slew_target","TTS unavailable, will need to verify on-sky"
+3,Update image type for acquisitions in scripts,"Consider either modifying the scheduler plan to stay on target without continually re-acquiring, or find a new way to check whether or not we're already acquired via the script+Scheduler"

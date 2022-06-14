@@ -5,6 +5,7 @@ authors:
     slack: ksk
 tags:
   - nightly
+  - auxtel
 parameters:
   log_date:
     type: string

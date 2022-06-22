@@ -1,0 +1,7 @@
+Time (summit),Summary,Ticket number,Sky time loss/Time to recover (hours),Notes
+2022-04-05 22:30:00,Dropped LATISS image,OBS-25,0.0,
+2022-04-05 23:00:00,DIMM failed to startup,OBS-27,0.0,
+2022-04-05 23:30:00,DIMM CSC publishing fake data,OBS-26,0.0,
+2022-04-05 23:45:00,notebook server/k8s cluster crash and reboot,--,0.6,
+2022-04-06 02:25:00,Nasmyth 2 max velocity exceeded,DM-30709,0.7,fault loss due to recovering the pointing after moving nasymith 2 with EUI
+2022-04-06 06:16:42,Test entry for past midnight entries,--,5.0,loss due to Simon falling asleep at the wheel

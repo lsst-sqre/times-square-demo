@@ -1,0 +1,4 @@
+Time (summit),Conditions,Humidity,Wind speed (m/s),Direction (degrees),DIMM seeing
+2022-04-05 23:00:00,"clear, calm",22.5,2.0,303,"(Gemini) 0.52"""
+2022-04-06 02:00:00,clear/calm,19.0,3.5,319,"Rubin 1.44"""
+2022-04-06 05:00:00,clear,18.0,5.1,303,"Rubin 1.13"""

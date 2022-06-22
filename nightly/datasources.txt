@@ -1,0 +1,40 @@
+software:
+  - stack versions
+    * no idea (start with recommended)
+  - scheduler environment
+    * no idea
+personnel:
+  * log service
+operations status:
+  * confluence ?
+  * jira ?
+  * large text blobs in the log service ?
+daytime tasks:
+  * log service ?
+night plan:
+  * log service
+almanac:
+  * computed
+night summary:
+  * log service
+time accounting:
+  * log service ?
+  * jira ?
+faults:
+  * jira
+  * log service
+weather summary:
+  * EFD
+  * log service
+night log:
+  * log service
+exposure log:
+  * butler
+
+outstanding issues:
+  * links
+  * attachments
+  * how to rendevous multiple related log messages
+    * e.g. the night log could have a summary, target, exposure number, exposure time, spectrum, and comments
+      There really isn't a way to put all that info in a single log messages
+  * how to deal with large blobs of human compiled information e.g. operations status

@@ -1,6 +1,10 @@
 title: Gaussian 2D
+description: A 2D gaussian distribution.
 tags:
   - demo
+authors:
+  - name: Jonathan Sick
+    slack: jonathansick
 parameters:
   sigma_x:
     type: number

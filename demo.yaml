@@ -5,6 +5,7 @@ authors:
     slack: jonathansick
 tags:
   - demo
+  - matplotlib
 parameters:
   A:
     type: number

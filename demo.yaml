@@ -8,6 +8,7 @@ tags:
   - matplotlib
 parameters:
   A:
+    type: number
     description: Amplitude
     default: 2
     minimum: 0

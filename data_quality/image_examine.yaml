@@ -1,0 +1,17 @@
+title: Single Chip Health Report
+description: Present various plots examining the PSF for a given chip in a given visit
+authors:
+  - name: Simon Krughoff
+    slack: ksk
+tags:
+  - imaging
+  - quality
+parameters:
+  visit:
+    type: integer
+    description: Value of the visit identifier to inspect
+    default: 1225401
+  detector:
+    type: string
+    description: Name of the detector to inspect
+    default: R22_S00

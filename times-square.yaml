@@ -1,3 +1,5 @@
 enabled: true
 description: >
   These notebooks demonstrate Times Square's capabilities.
+ignore:
+  - nightly/*

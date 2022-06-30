@@ -1,4 +1,6 @@
 title: Gaussian 2D
+description: >
+  2D Gaussian distribution rendered with Matplotlib.
 tags:
   - demo
 parameters:

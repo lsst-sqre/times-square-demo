@@ -1,5 +1,6 @@
 title: AuxTel Nightly Report
 description: Nightly report for the AuxTel given an observation night
+enabled: false
 authors:
   - name: Simon Krughoff
     slack: ksk

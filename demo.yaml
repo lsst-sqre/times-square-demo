@@ -11,7 +11,7 @@ parameters:
     description: Amplitude
     default: 2
     minimum: 0
-  lambda:
+  lamb:
     type: number
     description: Wavelength
     default: 1

@@ -1,0 +1,15 @@
+title: Example
+description: Moon illumination at a site.
+authors:
+  - name: Jonathan Sick
+    slack: jsick
+parameters:
+  site:
+    type: string
+    description: Name of an Astropy-registered site.
+    default: "Rubin AuxTel"
+  date:
+    type: string
+    format: date-time
+    description: Time of observation.
+    default: "2024-02-21T12:00-03:00"
